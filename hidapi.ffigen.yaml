@@ -1,0 +1,14 @@
+name: 'HidApi'
+description: 'Bindings to HIDAPI.'
+output: 'lib/src/hidapi_bindings.dart'
+headers:
+  entry-points:
+    - 'thirdparty/hidapi/hidapi/hidapi.h'
+  include-directives:
+    - '**hidapi.h'
+functions:
+  rename:
+    'hid_(.*)': '$1'
+comments:
+  style: doxygen
+  length: full

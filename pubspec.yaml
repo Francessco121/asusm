@@ -1,0 +1,20 @@
+name: asusm
+description: "CLI for configuring ASUS mice."
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.2.1
+
+dependencies:
+  args: ^2.4.2
+  collection: ^1.18.0
+  ffi: ^2.1.0
+  meta: ^1.11.0
+
+dev_dependencies:
+  ffigen: ^10.0.0
+  lints: ^3.0.0
+
+executables:
+  asusm:
